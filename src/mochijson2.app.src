@@ -1,0 +1,10 @@
+%%-*- mode: erlang -*-
+{application, mochijson2,
+ [{description, "json decode from mochiweb"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]}
+]}.
